@@ -1,2 +1,0 @@
-# TrueSneakerz
-truesneakerz.com

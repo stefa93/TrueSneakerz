@@ -1,0 +1,61 @@
+@keyframes swing {
+  0% { transform: rotate(3deg); }
+  100% { transform: rotate(-3deg); }
+}
+
+.wrapper {
+  height: 100vh;
+  padding: 0;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 'uppertext' 'subtext' "icons";
+  align-items: center;
+  justify-items: center;
+}
+
+.upper-text {
+  grid-area: uppertext;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.crane{
+  position: relative;
+  left: 88%;
+  line-height: 0;
+}
+
+.sub-text {
+  grid-area: subtext;
+  display: grid;
+  align-self: start;
+}
+
+.upper-text::after {
+  content: 'Z';
+  position: relative;
+  top: -3.3%;
+  left: 0.6%;
+  font-size: 57px;
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+}
+
+.icons {
+  grid-area: icons;
+
+}
+
+@media (max-width: 575.98px) {
+  .upper-text {
+    font-size: 32px;
+  }
+
+  .upper-text::after {
+    top: -2.8%;
+    font-size: 38px;
+  }
+}

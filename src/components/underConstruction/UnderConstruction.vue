@@ -1,11 +1,11 @@
 <template>
     <div class="container-fluid wrapper">
-            <div class="row upper-text"><span class="crane">🏗️</span>TRUESNEAKER</div>
+            <div class="row upper-text"><span class="crane"></span>TRUESNEAKER</div>
             <div class="row sub-text"> UNDER CONSTRUCTION</div>
             <div class="row icons">
-                <i class="fab fa-snapchat-ghost fa-3x col-4"></i>
-                <i class="fab fa-instagram fa-3x col-4"></i>
-                <i class="fab fa-youtube fa-3x col-4"></i>
+                <a href="https://www.snapchat.com/add/true.sneakerz"><i class="fab fa-snapchat-ghost fa-3x col-4"></i></a>
+                <a href="https://www.instagram.com/true.sneakerz/"><i class="fab fa-instagram fa-3x col-4"></i></a>
+                <a href="https://www.youtube.com/channel/UCu3vVMTMQIfe_k26kkMIe6Q"><i class="fab fa-youtube fa-3x col-4"></i></a>
             </div>
     </div>
 </template>

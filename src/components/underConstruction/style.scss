@@ -46,7 +46,10 @@
 
 .icons {
   grid-area: icons;
-
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
 }
 
 @media (max-width: 575.98px) {

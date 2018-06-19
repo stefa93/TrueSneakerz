@@ -2,10 +2,10 @@
     <div class="container-fluid wrapper">
             <div class="row upper-text"><span class="crane">🏗️</span>TRUESNEAKER</div>
             <div class="row sub-text"> UNDER CONSTRUCTION</div>
-            <div class="icons">
-                <i class="fab fa-snapchat-ghost fa-2x"></i>
-                <i class="fab fa-instagram fa-2x"></i>
-                <i class="fab fa-youtube fa-2x"></i>
+            <div class="row icons">
+                <i class="fab fa-snapchat-ghost fa-3x col-4"></i>
+                <i class="fab fa-instagram fa-3x col-4"></i>
+                <i class="fab fa-youtube fa-3x col-4"></i>
             </div>
     </div>
 </template>

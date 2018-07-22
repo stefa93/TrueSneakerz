@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="<%= BASE_URL %> apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/<%= BASE_URL %> avicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/<%= BASE_URL %> favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= BASE_URL %> favicon-16x16.png">
     <link rel="manifest" href="<%= BASE_URL %> site.webmanifest">
     <link rel="mask-icon" href="<%= BASE_URL %> safari-pinned-tab.svg" color="#5bbad5">
@@ -15,6 +15,12 @@
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script>document.documentElement.className = "js";
+    var supportsCssVars = function () {
+        var e, t = document.createElement("style");
+        return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+    };
+    supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
     <title>TrueSneakerz</title>
 </head>
 <body>

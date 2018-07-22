@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <UnderConstruction></UnderConstruction>
+    <router-view></router-view>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import UnderConstruction from './components/underConstruction/UnderConstruction.vue';
+import  Homepage from './components/homepage/Homepage.vue'
 
 @Component({
   components: {
-      UnderConstruction,
+      Homepage
   },
 })
 export default class App extends Vue {}
@@ -18,5 +18,6 @@ export default class App extends Vue {}
 
 <style>
 #app {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;;
 }
 </style>
